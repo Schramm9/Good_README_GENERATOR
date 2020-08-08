@@ -1,0 +1,26 @@
+{
+  "name": "good_readme_generator",
+  "version": "1.0.0",
+  "description": "Prompts user to create a README for a given development project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Schramm9/Good_README_GENERATOR.git"
+  },
+  "keywords": [
+    "README",
+    "GENERATOR"
+  ],
+  "author": "Schramm9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Schramm9/Good_README_GENERATOR/issues"
+  },
+  "homepage": "https://github.com/Schramm9/Good_README_GENERATOR#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
