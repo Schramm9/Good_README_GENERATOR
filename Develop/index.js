@@ -29,7 +29,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "What type of license should your project have?",
-    choices: ["MIT", "Mozilla", "GNU LGPLv3"],
+    choices: ["MIT", "Apache 2.0", "Mozilla", "GNU LGPLv3", "None"],
   },
   {
     type: "input",
@@ -72,15 +72,20 @@ function setLicense(chosen) {
     case "MIT":
       badge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
       break;
+    case "Apache 2.0":
+      badge = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
+      break;
     case "Mozilla":
       badge = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
       break;
     case "GNU LGPLv3":
       badge = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
       break;
+    case "None":
+      badge = "";
   }
   return badge;
-  //"MIT", "Mozilla", "GNU LGPLv3"
+  //"MIT", "Apache 2.0", "Mozilla", "GNU LGPLv3"
 }
 
 // function to initialize program

@@ -2,77 +2,79 @@
   
   # GOOD README GENERATOR
 
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
-- [Description of Project](#desc)  
-- [Installation](#dependencies) 
+- [Description of Project](#description-of-project)  
+- [Installation](#installation) 
 - [Usage](#usage) 
 - [License](#license) 
-- [Contribute to this repository](#contrib)
-- [How to test](#tests) 
-- [Usage/Purpose](#usage) 
-- [Questions/Contact the Author](#email) 
+- [Contribute to this repository](#contribute-to-this-repository)
+- [How to run tests](#how-to-run-tests) 
+- [Questions/Contact the Author](#questions/contact-the-author) 
+
 
 
 ## Description of Project
 
 
-It makes professional readmes
-
-<a name="desc"></a>
+    Makes project READMEs
 
 
-## Installaton dependencies
- 
+## Installation
 
-npm i
 
-<a name="dependencies"></a>
+    npm i
+
+
 
 ## Usage
 
-<a name="usage"></a>
+
+    Create a professional looking README quickly!
+
+
 
 ## License
 
-Mozilla
 
-<a name="license"></a>
+    MIT
+
+
 
 ## Contribute to this repository
 
-Make comments w/ contributions
 
-<a name="contrib"></a>
+    Make comments w/ contributions
+
+Want to contribute to this repo?
+    Github:  [Schramm9](https://github.com/Schramm9)
+
+
+Improvements welcomed
+
+
+
 
 ## How to run tests
 
-npm start
 
-<a name="tests"></a>
-
-## About the Author/Any Questions?:
-
-Github:
-
-<a name="user"></a>
+    npm start
 
 
-[Schramm9
-](https://github.com/Schramm9)
 
+## Questions/Contact the Author
+
+If you would like to contact me directly I can be reached here
 
 Email:
 
 
 schrammcj@gmail.com
 
+To see more of my work on GitHub:
 
-Want to contribute to this repo?
-
-
-Suggestions welcome
-<a name="repo"></a>
+[Schramm9
+](https://github.com/Schramm9)
 
 

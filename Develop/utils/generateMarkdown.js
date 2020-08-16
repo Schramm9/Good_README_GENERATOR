@@ -8,75 +8,77 @@ function generateMarkdown(data) {
   ${data.badge}
 
 ## Table of Contents
-- [Description of Project](#desc)  
-- [Installation](#dependencies) 
+- [Description of Project](#description-of-project)  
+- [Installation](#installation) 
 - [Usage](#usage) 
 - [License](#license) 
-- [Contribute to this repository](#contrib)
-- [How to test](#tests) 
-- [Usage/Purpose](#usage) 
-- [Questions/Contact the Author](#email) 
+- [Contribute to this repository](#contribute-to-this-repository)
+- [How to run tests](#how-to-run-tests) 
+- [Questions/Contact the Author](#questions/contact-the-author) 
+
 
 
 ## Description of Project
 
 
-${data.desc}
-
-<a name="desc"></a>
+    ${data.desc}
 
 
-## Installaton dependencies
- 
+## Installation
 
-${data.dependencies}
 
-<a name="dependencies"></a>
+    ${data.dependencies}
+
+
 
 ## Usage
 
-<a name="usage"></a>
+
+    ${data.usage}
+
+
 
 ## License
 
-${data.license}
 
-<a name="license"></a>
+    ${data.license}
+
+
 
 ## Contribute to this repository
 
-${data.contrib}
 
-<a name="contrib"></a>
+    ${data.contrib}
+
+Want to contribute to this repo?
+    Github:  [${data.user}](https://github.com/${data.user})
+
+
+${data.repo}
+
+
+
 
 ## How to run tests
 
-${data.tests}
 
-<a name="tests"></a>
-
-## About the Author/Any Questions?:
-
-Github:
-
-<a name="user"></a>
+    ${data.tests}
 
 
-[${data.user}
-](https://github.com/${data.user})
 
+## Questions/Contact the Author
+
+If you would like to contact me directly I can be reached here
 
 Email:
 
 
 ${data.email}
 
+To see more of my work on GitHub:
 
-Want to contribute to this repo?
-
-
-${data.repo}
-<a name="repo"></a>
+[${data.user}
+](https://github.com/${data.user})
 
 
 `;
