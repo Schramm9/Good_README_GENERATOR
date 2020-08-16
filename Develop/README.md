@@ -1,11 +1,8 @@
-// function to generate markdown for README
 
-function generateMarkdown(data) {
-  return `
   
-  # ${data.projectName}
+  # GOOD README GENERATOR
 
-  ${data.badge}
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Table of Contents
 - [Description of Project](#desc)  
@@ -21,7 +18,7 @@ function generateMarkdown(data) {
 ## Description of Project
 
 
-${data.desc}
+It makes professional readmes
 
 <a name="desc"></a>
 
@@ -29,7 +26,7 @@ ${data.desc}
 ## Installaton dependencies
  
 
-${data.dependencies}
+npm i
 
 <a name="dependencies"></a>
 
@@ -39,19 +36,19 @@ ${data.dependencies}
 
 ## License
 
-${data.license}
+Mozilla
 
 <a name="license"></a>
 
 ## Contribute to this repository
 
-${data.contrib}
+Make comments w/ contributions
 
 <a name="contrib"></a>
 
 ## How to run tests
 
-${data.tests}
+npm start
 
 <a name="tests"></a>
 
@@ -62,24 +59,20 @@ Github:
 <a name="user"></a>
 
 
-[${data.user}
-](https://github.com/${data.user})
+[Schramm9
+](https://github.com/Schramm9)
 
 
 Email:
 
 
-${data.email}
+schrammcj@gmail.com
 
 
 Want to contribute to this repo?
 
 
-${data.repo}
+Suggestions welcome
 <a name="repo"></a>
 
 
-`;
-}
-
-module.exports = generateMarkdown;
